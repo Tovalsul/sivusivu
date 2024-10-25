@@ -1,0 +1,40 @@
+Valitsin tuon githubin oman sivun html dokumentin GET pyynnön joka sitten hakee tuolta githubista sen pyydetyn html dokumentin. Status 200 eli pyyntö onnistui. Metodina GET. Domain github.com. Transferred 
+
+Alla on request header ja response header
+
+Host: github.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: https://github.com/Tovalsul/sivusivu/commits?author=Tovalsul
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Cookie: _gh_sess=z3i4eBhPIemkrEhwErkRR98L5TzFs80eEjYANg13GEKmqWYR0JwLKqiBD4OPq7xYl7aLtulEbXbyfDul9rB4UCbVywDYfsU1XqIMjmpA4pkn9smQcUTM3ca1j3nkoLTrsvTwCEsSFr8Ob5BrOcwWl7FrcLaoSag3h18M4ad9sG8J%2B2dqMYww7s%2FyxVrK48uGWsYC9p6KlhdQYZ6oPxemAI0Z5nNWhNebGMhCJIN17eKuPqzoGKeSdQF%2B6%2Ber1H3GLuFsUtEw1Gt27lAJXAFSe4kRe1oO1sIS1cxc1SOt564keJQSRLHiNx7a1cZkM8ppKnijwjH3y3A7AdLZ4uRVDAuMfB8G56%2BCdUZRETXusdMNC824wQNVYOY4%2Fh8seD3SQK%2BZS0K7UOt7kChgqo9aEl5VKSkIvESdZQ7xvhBGUbUTEl%2FkqEkFYvZA27t97cZmvrY7kh4YVipb4VLBg7AFBCHY8krwAcCpOHf92KynFrOpO1srx9QVYdUWd88AzQfOOv%2BrCbQe9arSsudOiE8vZ6cu4tYt53tQHdgUyN6HFY2Wy2Cttsp6BDp5FJpR%2BGJ65gSp%2FXdD%2BH4lnh36QjuvDrq%2FInXsInxkWV8PMRXVvCAuFrvHASOUPdhnelhggpYpT0cldxwxTPg%2Brn0HoYZYbFOvhLgpquTUf9lJptl6UPhPJIz8MBqYahHGyaaFXTHJk1Sv9LXJASzJdrsgyM4HkXUhDWg%3D--CYxdn4LP93wDC2oW--uOOMce0Bl1f7a7p5Lvk6yQ%3D%3D; _octo=GH1.1.1485884933.1729839174; logged_in=yes; preferred_color_mode=dark; tz=Europe%2FHelsinki; _device_id=3898d26b02c4d8356c521c41eb89a154; saved_user_sessions=59951811%3AAZoOzOZMJhydnVAjhDQ-pPp29XmbOjWaLEfMcGdsuqjmG5FU; user_session=AZoOzOZMJhydnVAjhDQ-pPp29XmbOjWaLEfMcGdsuqjmG5FU; __Host-user_session_same_site=AZoOzOZMJhydnVAjhDQ-pPp29XmbOjWaLEfMcGdsuqjmG5FU; tz=Europe%2FHelsinki; color_mode=%7B%22color_mode%22%3A%22dark%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; dotcom_user=Tovalsul
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+If-None-Match: W/"215292f3aa7da2683caf7398125928fe"
+Priority: u=0, i
+TE: trailers
+
+HTTP/2 200 
+server: GitHub.com
+date: Fri, 25 Oct 2024 07:19:40 GMT
+content-type: text/html; charset=utf-8
+etag: W/"7ddff5d8af3f4bdbac9fd515af446314"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _gh_sess=knsqEgdyh4lZ5%2Bqw04QKVniP4pJLuNFu1nfxRf7LSRIVbmqtlByMD9KdJTQQ46B%2BtfI2v3jNJT1Wc%2BW7Hx%2FHpmFgloNwjhzv772fi48trjVg01R8aEj4ADwTcOh9S%2BDdEBd5Px7ajT7iDokLsx0o1DlKHWEv4nKIGmPcWK5ys2RNSwVIsUS%2B7w46dI%2FZDzG3v7ii3WorKXaRY%2FehpIsTqMoiTVlObB%2FwePP2ctu2Km%2FJ9nvbyMmOcmnTz1jQn%2F6Xw7ZP7TQZDtrC0eRvqFgoEj7sziOZ50ED3iDvQNEA1XoZ5K3pULjjjj%2BjauVEzUY3aScV6vl9N1Kkz9XJHxmFS4EjqZsnw6BwRnub%2BpsPANckyUrFAM%2BtNvm4sGJnprCs8H%2Fc4%2FXK9ZPILH2QQ35C3qTW%2B%2F0yu2QAcsixrT68ZDbg%2Fgc1nzjzWCe1RryeUlPybi7gmuuqX%2BagyklPuPb6gygY5ioyIIeN3fHQkcDMUhnFTBSVwsIcU9HLYigV8ihkVjIJtcVqrniCOVgTbO3VBcNkqkV8B7Z8KCmVVNkGD9Brgon9ZhOQyk7JLhjbyKy3qcHK6TJSl9Pm8%2BpOTsA1rKva7U1Ny84iUu7FTyQg80uMGD%2BmzzbFij6UX9EvMSUgQfncSB7%2F2XGLM%2BB7I0MN5O9Us%2FgTaLrbxFGdiRNW4Xqe5ranM1XZ0lyhYD9auTDIQ5tFuOCR09w7NPfMP6yYxl70M7M%3D--XYbwgnpuUwKGHI6W--2Vx575oPo8kZx6KW0iRlsg%3D%3D; path=/; secure; HttpOnly; SameSite=Lax
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+content-encoding: gzip
+x-github-request-id: 29A5:158333:2B44097:2C4F472:671B468B
+X-Firefox-Spdy: h2
